@@ -1,3 +1,6 @@
+import canva from "../assets/Screenshot 2024-08-12 195354.png"
+import portfolio from '../assets//Screenshot 2024-08-12 195447.png'
+import sana from '../assets//Screenshot 2024-08-12 195546.png'
 
 export const HERO_CONTENT = `I am a dedicated front-end developer with a passion for creating intuitive and engaging web interfaces. With a solid foundation in HTML, CSS, JavaScript, and React, I have developed a range of projects, from hackathon-winning applications to innovative personal projects. My goal is to craft user-centered designs that enhance user experience and drive business success. I thrive on solving complex challenges and continuously improving my skills to deliver cutting-edge solutions.`;
 
@@ -30,7 +33,7 @@ export const EDUCATION = [
 export const PROJECTS = [
   {
     title: "Kindergarten | Canvas",
-    image:'',
+    image:canva,
     description:
       "Kindergarten | Canvas is a responsive webpage designed for a kindergarten, built using HTML, CSS, and Bootstrap. The site features an engaging, colorful layout and easy navigation, providing information about kindergarten activities and programs, along with a contact form for inquiries.",
     technologies: ["HTML", "CSS", "BOOTSTRAP", "VERCEL(HOST)"],
@@ -46,7 +49,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image:'',
+    image:portfolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind-CSS", "Framer-Motion","React-Icon"],
@@ -54,10 +57,10 @@ export const PROJECTS = [
   },
   {
     title: "Sana-Industrial",
-    image:'',
+    image:sana,
     description:
       "Sana Industries is my first freelancing project, an industrial management system developed using React.js, EmailJS, Bootstrap, and FontAwesome. The application streamlines industrial processes and data management with real-time updates, a user-friendly dashboard, and email notifications.",
-    technologies: ["React", "Bootstrap-CSS", "Javascript"],
+    technologies: ["React", "Tailwind-CSS", "Javascript"],
     link: "http://sana-industry.vercel.app",
   },
 ];
