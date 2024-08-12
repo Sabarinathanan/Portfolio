@@ -20,14 +20,14 @@ function ProjectsPage(){
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="w-full lg:w-1/4"
+              className="w-full lg:w-1/4 pt-5 "
             >
               <img
-                src=''
-                width={150}
+                src={project.image}
+                width={250}
                 height={150}
                 alt={project.title}
-                className="mb-6 rounded"
+                className="mb-6 rounded pt-2"
               />
             </motion.a>
             <motion.div
