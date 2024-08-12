@@ -15,13 +15,13 @@ const HomePage = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
-        <div className="w-full lg:w-3/5 ps-20">
+        <div className="w-full lg:w-3/5 ps-5">
           <div className="flex flex-col items-center lg:items-start ps-10">
             <motion.h1
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-10 text-6xl font-thin tracking-tight lg:mt-3 lg:text-8xl"
             >
               Sabarinathan G
             </motion.h1>
@@ -37,20 +37,21 @@ const HomePage = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-1 max-w-xl py-6 text-lg font-light tracking-tighter"
             >
               {HERO_CONTENT}
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-2/5 lg:p-8 pe-10">
-          <div className="flex justify-center pt-10">
+        <div className="w-full lg:w-2/5 lg:p-1 pe-8">
+          <div className="flex justify-center">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              src='https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQRAwJRFqWtas1ivq0RGvyHmyyuLWX4eNUXqXEl6i5XN8T4LeL_'
+              src='https://cdni.iconscout.com/illustration/premium/thumb/programmer-6779140-5624394.png'
               alt="sabarinathan"
+              className=""
             />
           </div>
         </div>
